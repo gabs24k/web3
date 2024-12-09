@@ -1,0 +1,154 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>felxbox_01</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='css/estilo.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="img/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">Sección 1</a>
+          <a href="#secc2">Sección 2</a>
+		  <a href="#secc3">Sección 3</a>
+          <a href="#secc4">Sección 4</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>La desaparición del dinero en efectivo</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>En las últimas décadas, los avances tecnológicos han transformado significativamente la forma en que las personas realizan transacciones financieras. El dinero en efectivo, que durante siglos ha sido el medio predominante de intercambio económico, está siendo reemplazado progresivamente por opciones digitales como las tarjetas de crédito y débito, las aplicaciones de pago móvil, las transferencias electrónicas y, más recientemente, las criptomonedas.
+					
+					</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La desaparición del dinero en efectivo no solo tiene implicaciones económicas, sino también sociales, culturales y políticas. Mientras que para algunos representa una oportunidad para modernizar sistemas financieros y combatir problemas como la evasión fiscal y la corrupción, para otros, es motivo de preocupación por el impacto negativo en los sectores más vulnerables de la sociedad y por la posible pérdida de autonomía y privacidad financiera.
+					</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="img/Imagen de WhatsApp 2024-12-01 a las 16.52.36_4a48ac34.jpg" title="Img 1a">
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>Cancelacion de dinero</p>
+        		</div>
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Pérdida de privacidad</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La desaparición del efectivo representa un cambio profundo en la forma en que se gestiona la privacidad financiera. Cada transacción digital deja un rastro que puede ser monitoreado, almacenado y analizado por instituciones financieras, empresas tecnológicas y gobiernos. Esto contrasta con el dinero en efectivo, que permite realizar intercambios de manera anónima y sin vigilancia.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>En un mundo sin efectivo, cada compra, transferencia o pago podría ser utilizado para construir perfiles detallados sobre el comportamiento de las personas. Las empresas podrían utilizar esta información para personalizar estrategias de marketing, segmentar audiencias y discriminar precios, mientras que los gobiernos podrían usarla para monitorear actividades económicas e identificar patrones que consideren sospechosos.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="img/Imagen de WhatsApp 2024-12-01 a las 16.52.36_e735a5c9.jpg" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p>Perdida monetaria</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Riesgos de ciberseguridad</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La digitalización total del dinero expone a los sistemas financieros a riesgos tecnológicos significativos, amplificando las vulnerabilidades ante ataques cibernéticos, errores técnicos y fallas sistémicas. En un mundo sin efectivo, la interrupción de los servicios digitales puede paralizar economías enteras y dejar a millones de personas sin acceso a sus fondos.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Los hackeos y fraudes digitales son un problema creciente. Bancos, empresas de tecnología financiera y plataformas de pago han sido objetivos frecuentes de ataques que comprometen la seguridad de los datos y los fondos de los usuarios. aunque la digitalización financiera ofrece ventajas en términos de eficiencia y comodidad, también plantea serios riesgos de ciberseguridad y privacidad que requieren atención prioritaria para evitar consecuencias negativas a gran escala.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="img/imagen 3.jpg" title="Img 4">
+        		<!--texto para la imagen-->
+        		<p>Decaida monetaria</p>
+    		</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="img/fb.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="img/telegram.png" title="Telegram">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="img/ig.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="img/flecha-arriba_old.png">
+	    </a>
+
+</body>
+
+</html>
+
